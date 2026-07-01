@@ -19,5 +19,6 @@ int main (){
     for (int i=0; i<n; i++){
         cout<<"\nLibro"<< i+1<<endl;
         cout<<"Titulo: ";
+        get line (cin, libros[i].titulo);
     }
 }
